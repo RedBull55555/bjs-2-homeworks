@@ -1,7 +1,6 @@
 'use strict';
 
 
-// Задание 1
 function getArrayParams(...arr) {
 
      let min = Infinity;
@@ -21,7 +20,7 @@ function getArrayParams(...arr) {
 }
 
 
-// Задание 2
+
 function summElementsWorker(...arr) {
   if (arr.length === 0) {
     return 0;
@@ -85,7 +84,6 @@ function averageEvenElementsWorker(...arr) {
 }
 
 
-// Задание 3
 function makeWork(arrOfArr, func) {
   let maxWorkerResult = -Infinity;
   for (let i = 0; i < arrOfArr.length; i++) {
